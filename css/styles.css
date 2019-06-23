@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 #topNavBar{
     min-height: 70px;
     padding-top: 0;
@@ -25,7 +29,7 @@ margin-bottom: auto;
      min-height:30px;
      height: 50px;
      padding:0px;
-     border-top:3px solid #4aaa4a;
+     border-top:3px solid palevioletred;
  }
 
  .footerText{
@@ -48,4 +52,40 @@ margin-bottom: auto;
     line-height: 20px;
     font-size:12px;
 
+}
+
+.bg-pink{
+    background:palevioletred;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: palevioletred;
+
+}
+
+.pink .active a,
+.pink .active a:hover {
+    background: palevioletred;
+    color:white
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background: palevioletred;
+    color: #fff;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: palevioletred;
+}
+
+a{
+    color:black;
+}
+a:active{
+    color:white;
 }
