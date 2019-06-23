@@ -1,0 +1,51 @@
+#topNavBar{
+    min-height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand{
+    min-height: 70px;
+    width:150px;
+    text-align: center;
+    padding-top:20px;
+    position: relative;
+    margin-top: auto;
+margin-bottom: auto;
+    vertical-align: middle;
+}
+
+@media (max-width: 991px) { 
+     .nav-pills{
+        padding-top:30px;
+    }
+ }
+
+ #footer{
+     min-height:30px;
+     height: 50px;
+     padding:0px;
+     border-top:3px solid #4aaa4a;
+ }
+
+ .footerText{
+     text-align: center;
+     width:100%;
+     font-size:12px;
+     top:0px;
+ }
+
+ .profileImg{
+    width:200px;
+    clear:both;
+    float:left;
+    padding-right:15px;
+    padding-bottom: 15px;
+}
+.loremIpsum{
+    text-align: left;
+    margin-top:10px;
+    line-height: 20px;
+    font-size:12px;
+
+}
