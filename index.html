@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-        <nav id="topNavBar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav id="topNavBar" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand bg-pink" href="index.html">Amber Webb</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                 </div>
               </nav>
               
-              <br><br>
+              
    
       <div class="tab-content mt-5" id="pills-tabContent">
 
@@ -70,19 +70,20 @@
                              <h1>Portfolio</h1>
                              <hr/>
                              <div class="row mt-auto">
-                                    <div class="col-sm-9">
+                                    <div class="col-sm-12 col-md-9">
                                       <div class="row mt-auto">
-                                        <div class="col-8 col-sm-6">
+                                        <div class="col-md-4 col-sm-6">
                                                 <div class="card bg-dark text-white">
                                                         <img class="card-img" src="./images/technics-q-c-640-480-1.jpg" alt="Card image">
                                                         <div class="card-img-overlay">
+                                                            <a class="card-title-button" href="./images/technics-q-c-640-480-1.jpg">
                                                           <h5 class="card-title">Hangman</h5>
-
+                                                        </a>
 
                                                         </div>
                                                       </div>
                                         </div>
-                                        <div class="col-4 col-sm-6">
+                                        <div class="col-md-4 col-sm-6">
                                                 <div class="card bg-dark text-white">
                                                         <img class="card-img" src="./images/technics-q-c-640-480-2.jpg" alt="Card image">
                                                         <div class="card-img-overlay">
@@ -94,7 +95,7 @@
                                         </div>
                                       </div>
                                       <div class="row mt-4">
-                                            <div class="col-8 col-sm-6">
+                                            <div class="col-md-4 col-sm-6">
                                                     <div class="card bg-dark text-white">
                                                             <img class="card-img" src="./images/technics-q-c-640-480-5.jpg" alt="Card image">
                                                             <div class="card-img-overlay">
@@ -104,7 +105,7 @@
                                                             </div>
                                                           </div>
                                             </div>
-                                            <div class="col-4 col-sm-6">
+                                            <div class="col-md-4 col-sm-6">
                                                     <div class="card bg-dark text-white">
                                                             <img class="card-img" src="./images/technics-q-c-640-480-7.jpg" alt="Card image">
                                                             <div class="card-img-overlay">
@@ -116,7 +117,7 @@
                                             </div>
                                           </div>
                                           <div class="row mt-4">
-                                                <div class="col-8 col-sm-6">
+                                                <div class="col-md-4 col-sm-6">
                                                         <div class="card bg-dark text-white">
                                                                 <img class="card-img" src="./images/technics-q-c-640-480-9.jpg" alt="Card image">
                                                                 <div class="card-img-overlay">
@@ -140,7 +141,7 @@
                              <h1>Contact</h1>
                              <hr/>
 
-                             <form>
+                             <form action="#">
                                <div class="form-group">
                                             <label for="exampleInputName1">Name</label>
                                             <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter name">
@@ -151,10 +152,10 @@
                                     </div>
                                     <div class="form-group">
                                             <label for="exampleFormControlTextarea1">Message</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" row mt-autos="3" placeholder="Enter message here"></textarea>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" mt-autos="5" placeholder="Enter message here"></textarea>
                                     </div>
-        
-                                    <button type="submit" class="btn bg-pink-submit">Submit</button>
+                                    
+                                    <button type="submit" class="btn bg-pink-submit" id="submitButton" >Submit</button>
                                   </form>
                              
                         </div>
@@ -167,6 +168,25 @@
       <footer id="footer" class="navbar fixed-bottom navbar-light bg-light">
             <p class="navbar-brand footerText" href="#">© Copyright</p>
       </footer>
+
+      <script>
+
+            var b1 = document.getElementById("submitButton");
+            b1.onclick = function() {
+            b1.style.background = "palevioletred";  
+            b1.style.color = "white";  
+
+                }
+            b1.addEventListener('mouseover', function(){
+                b1.style.background = "white";
+                b1.style.color = "palevioletred";  
+            })
+            b1.addEventListener('mouseleave', function(){
+                b1.style.background = "palevioletred";  
+            b1.style.color = "white";  
+            })
+
+            </script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

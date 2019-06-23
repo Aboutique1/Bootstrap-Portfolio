@@ -118,12 +118,7 @@ background: rgb(232, 232, 232); /* Old browsers */
 
 }
 
-.bg-pink-submit:active{
-    background:deeppink;
-    color:white;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e5e5+0,4aaaa5+100 */
 
-  }
 
  body{
      height:900px;
@@ -132,8 +127,9 @@ background: rgb(232, 232, 232); /* Old browsers */
  .card-title{
      width:100%;
      height:25%;
-     top:200px;
-     padding-top:20px;
+     top:90px;
+     padding-top:5px;
+     font-size:16px;
      position: relative;
      text-align: center;
      background: palevioletred;
@@ -142,3 +138,26 @@ background: rgb(232, 232, 232); /* Old browsers */
  .card-img-overlay{
      padding:0rem;
  }
+
+ .card-title-button{
+     text-decoration: none;
+     color:white;
+ }
+
+ .card-title-button:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.card{
+    width:180px;
+}
+
+
+hr{
+    border:0.5px solid grey;
+}
+
+.activeSubmit{
+    background:red;
+}
