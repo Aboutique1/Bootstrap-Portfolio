@@ -1,6 +1,4 @@
-body{
-    overflow: hidden;
-}
+
 
 #topNavBar{
     min-height: 70px;
@@ -39,7 +37,7 @@ margin-bottom: auto;
      top:0px;
  }
 
- .profileImg{
+ .portfolioImg{
     width:200px;
     clear:both;
     float:left;
@@ -89,3 +87,58 @@ a{
 a:active{
     color:white;
 }
+
+.bg-pink-submit {
+    padding: 10px 30px;
+    width:120px;
+    height:50px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4aaaa5+0,e5e5e5+100 */
+background: palevioletred; /* Old browsers */
+	margin: 0px auto 24px auto;
+	transition: all 0.5s;
+	position: relative;
+    border: 0 none;
+    margin-top:15px;
+  
+  }
+#submitButton{
+
+}
+ 
+  
+  .bg-pink-submit:hover{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e5e5+0,4aaaa5+100 */
+background: rgb(232, 232, 232); /* Old browsers */
+    background-position: 20%;
+    color:palevioletred;
+
+
+}
+
+.bg-pink-submit:active{
+    background:deeppink;
+    color:white;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e5e5+0,4aaaa5+100 */
+
+  }
+
+ body{
+     height:900px;
+ }
+
+ .card-title{
+     width:100%;
+     height:25%;
+     top:200px;
+     padding-top:20px;
+     position: relative;
+     text-align: center;
+     background: palevioletred;
+ }
+
+ .card-img-overlay{
+     padding:0rem;
+ }
