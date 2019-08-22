@@ -137,6 +137,7 @@ background: rgb(232, 232, 232); /* Old browsers */
 
  .card-img-overlay{
      padding:0rem;
+     width:100%;
  }
 
  .card-title-button{
@@ -151,6 +152,8 @@ background: rgb(232, 232, 232); /* Old browsers */
 
 .card{
     width:180px;
+    background:black;
+    height:150px;
 }
 
 
@@ -160,4 +163,15 @@ hr{
 
 .activeSubmit{
     background:red;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
